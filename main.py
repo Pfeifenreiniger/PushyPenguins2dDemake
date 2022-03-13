@@ -954,7 +954,7 @@ if __name__ == "__main__":
                 if player1.fallen and player2.fallen and player3.fallen:
                     game_active = False
             elif numb_of_players == 4:
-                if player1.fallen and player2.fallen and player3.fallen:
+                if player1.fallen and player2.fallen and player3.fallen and player4.fallen:
                     game_active = False
 
             bg_sea.draw()
