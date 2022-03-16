@@ -217,6 +217,7 @@ def two_point_five_d():
                     player4.player_update()
                     p4_updated = True
     bg_ice_floe.draw()
+    bg_sea_lower_edge.draw()
     if player1.rect.bottom <= 83 and p1_updated != True:
         if player1.fall_u != True:
             player1.player_update()
@@ -959,7 +960,6 @@ if __name__ == "__main__":
 
             bg_sea.draw()
             bg_sea_lower_edge.animation()
-            bg_sea_lower_edge.draw()
             wave_grp.update()
 
             player_collision()
